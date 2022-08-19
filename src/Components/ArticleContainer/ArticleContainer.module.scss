@@ -1,0 +1,9 @@
+.ArticleContainer {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+
+  > div {
+    flex: 1 0 25%;
+  }
+}

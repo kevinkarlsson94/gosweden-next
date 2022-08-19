@@ -1,0 +1,23 @@
+.Hero {
+  background: url("../../Assets/Images/Image3.jpeg");
+  width: 100%;
+  background-size: cover;
+  height: 400px;
+  background-position: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-bottom: 1px solid white;
+
+  h1 {
+    padding: 0 20%;
+    margin: 0;
+    color: black;
+    font-size: 50px;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  }
+}
